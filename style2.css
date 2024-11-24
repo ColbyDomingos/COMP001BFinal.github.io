@@ -1,0 +1,57 @@
+.intro {
+    background-image: url("images/rocks2water.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+    color: #86A6A4;
+
+    text-align: right;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.intro h1 {
+    background-color: rgba(42, 55, 53, 0.8);
+    color: rgba(23, 146, 187, 0.7);
+
+    padding: 5px;
+
+    width: 21%;
+    font-size: 50px;
+
+    margin-left: auto;
+
+    border-radius: 6px;
+}
+
+.intro h2, .intro h3 {
+    background-color: rgba(42, 55, 53, 0.8);
+
+    padding: 4px;
+
+    width: 6%;
+
+    margin-left: auto;
+
+    font-size: 17px;
+
+    border-radius: 6px;
+}
+
+.intro h2::first-letter, .intro h3::first-letter {
+    font-size: 25px;
+    color: rgba(23, 146, 187, 0.7);
+}
+
+.intro p {
+    background-color: rgba(42, 55, 53, 0.7);
+
+    font-size: 18px;
+
+    width: 20%;
+    margin-left: auto;
+
+    border-radius: 4px;
+}
+
