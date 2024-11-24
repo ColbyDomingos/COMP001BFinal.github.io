@@ -1,3 +1,7 @@
+body {
+    background-color: #86A6A4;
+}
+
 .intro {
     background-image: url("images/rocks2water.jpg");
     background-size: cover;
@@ -85,4 +89,20 @@
 .explanation::first-letter, .participation::first-letter, .benefits::first-letter, .requirements::first-letter {
     font-size: 30px;
     color: rgba(23, 146, 187, 0.7);
+}
+
+.sidebar { /* selects the sidebar element*/
+
+    width: 20%; /* sets the width of the element to 15% */
+    position: fixed; /* fixes the position of the element to glue it to the side*/
+
+    top: 20%; /* places the element 300px from the top*/
+    left: 40%;
+
+    text-align: center; /* centers the text*/
+    background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
+ 
+   padding: 20px; /* adds padding to the element*/
+
+   color: #C1C4BE; /* makes the text white */
 }
