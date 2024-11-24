@@ -11,6 +11,10 @@
     
 }
 
+.page-wrapper {
+    width: 100%;
+}
+
 .intro h1 {
     text-align: center;
     color: #fff;
@@ -202,4 +206,39 @@
 .zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover {
     transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
     background-color: rgba(167, 167, 89, 0.6);
+}
+
+#zen-supporting{
+    width: 80%;
+}
+
+.sidebar {
+
+    width: 15%;
+    float: right;
+    position: fixed;
+    right: 0;
+
+    top: 300px;
+
+    text-align: center;
+    background-color: rgb(164, 212, 228, 0.4);
+
+   padding: 20px;
+
+   color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(164, 212, 228, 0.8);
+}
+
+a:hover {
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
+    color: #fff;
+}
+
+a:visited {
+    color: rgba(0, 162, 216, 0.8);
 }
