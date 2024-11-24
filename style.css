@@ -124,3 +124,19 @@
     font-size: 2em;
 }
 
+.benefits {
+    width: 90%;
+
+    padding: 10px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    background-color: rgb(164, 212, 228, 0.9); 
+
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+
+    color: #38992f;
+}
