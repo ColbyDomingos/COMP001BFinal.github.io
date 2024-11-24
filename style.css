@@ -1,251 +1,254 @@
-#css-zen-garden {
-    background-image: url("images/backgrnd.jpg");
-    background-size: cover;
-    background-position: center center;
+#css-zen-garden { /* selects the root element */
+    background-image: url("images/backgrnd.jpg"); /* changes the background image */
+    background-size: cover; /* makes the image try to cover the page*/
+    background-position: center center; /* centers the image on both axis*/
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* makes the page a flex container*/
+    flex-direction: column; /* makes the flex container column oriented */
+    align-items: center; /* centers the flex container */
+    justify-content: center; /* centers the flex container */
 
     
 }
 
-.page-wrapper {
-    width: 100%;
+.page-wrapper { /* selects the wrapper element */
+    width: 100%; /* sets the width of the wrapper to 100% for safety sake*/
 }
 
-.intro h1 {
-    text-align: center;
-    color: #fff;
-    font-size: 3em;
-    font-weight: 800;
+.intro h1 { /* specifically selects the h1 element in the intro class*/
+    text-align: center; /* aligns the text to the center*/
+    color: #fff; /* makes the text white */
+    font-size: 3em; /* changes the size of the text to 3em*/
+    font-weight: 800; /* changes the font thickness */
 
-    border: 2px solid #fff;
-    border-style: double;
-    border-radius: 10px;
+    border: 2px solid #fff; /* adds a solid border that is white*/
+    border-style: double; /* adds the double style to the border*/
+    border-radius: 10px; /* adds rounded corners to the border*/
 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* changes the font family*/
 
-    padding: 10px;
+    padding: 10px; /* adds padding to the element*/
 
-    background-image: url("images/topgrnd.jpg");
-    background-size: cover;
-    background-position: center center;
+    background-image: url("images/topgrnd.jpg"); /* changes the top ground image*/
+    background-size: cover; /* makes the image try to cover the page*/
+    background-position: center center; /* centers the image on both axis*/
 }
 
-.intro h2 {
-    text-align: center;
+.intro h2 { /* selects the h2 element in intro*/
+    text-align: center; /* aligns the text to the center*/
 
-    font-size: 1.6em;
+    font-size: 1.6em; /* changes the size of the text to 1.6em*/
 
-    color: #fff;
+    color: #fff; /* makes the text white */
 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* changes the font family*/
 
-    margin: 20px;
+    margin: 20px; /* adds margin to the element*/
 
-    border-style: double;
-    border-radius: 5px;
-    border-color: #fff;
-    padding: 10px;
+    border-style: double; /* adds the double style to the border*/
+    border-radius: 5px; /* adds rounded corners to the border*/
+    border-color: #fff; /* changes the border color to white*/
+    padding: 10px; /* adds padding to the element*/
 
-    background-color: rgb(173, 173, 121);
+    background-color: rgb(173, 173, 121); /* changes the background color*/
 }
 
-.summary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 10px;
-    align-content: center;
+.summary { /* selects the summary class */
+    display: flex; /* makes the flex container*/
+    flex-direction: column; /* makes the flex container column */
+    align-items: center; /* centers the flex container */
+    justify-content: center; /* centers the content of the flex container */
+    margin: 0 auto; /* centers the flex container */
+    padding: 10px; /* adds padding to the element*/
+    align-content: center; /* aligns the content of the flex container */
 
-    text-align: center;
-    color: #fff;
+    text-align: center; /* centers the text*/
+    color: #fff; /* makes the text white */
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* changes the font family*/
 
-    width: 20%;
+    width: 20%; /* sets the width of the element to 20% */
 
-    background-color: rgba(167, 167, 89, 0.6);
+    background-color: rgba(167, 167, 89, 0.6); /* changes the background color*/
 
-    border-bottom: 5px solid white;
-    border-top: 5px solid white;
+    border-bottom: 5px solid white; /* adds a solid border to the bottom that is white*/
+    border-top: 5px solid white; /* adds a solid border to the top that is white */
 
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* adds margin to the bottom of the element*/
 }
 
-.preamble {
+.preamble { /* selects the preamble class */
 
-    text-align: center;
+    text-align: center; /* centers the text*/
 
-    padding: 10px;
-    margin: 0 auto;
+    padding: 10px; /* adds padding to the element*/
+    margin: 0 auto; /* centers the element */
 
-    width: 60%;
+    width: 60%; /* sets the width of the element to 60% */
 
-    background-color: rgba(164, 212, 228, 0.4); 
-    color:#fff;
+    background-color: rgba(164, 212, 228, 0.4);  /* changes the background color*/
+    color:#fff; /* makes the text white */
 
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid white; /* adds a solid border that is white*/
 
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* adds margin to the bottom of the element*/
 }
 
-.preamble::first-letter {
-    font-size: 2em;
+.preamble::first-letter { /* specifically selects the first letter in preamble*/
+    font-size: 2em; /* changes the size of the text to 2em*/
 } 
 
-.explanation {
-    width: 90%;
+.explanation { /* selects the explanation class */
+    width: 90%; /* sets the width of the element to 90% */
 
-    padding: 10px;
-    margin: 0 auto;
-    background-color: rgba(167, 167, 89, 0.6);
+    padding: 10px; /* adds padding to the element*/
+    margin: 0 auto; /* centers the element */
+    background-color: rgba(167, 167, 89, 0.6); /* changes the background color*/
 
-    border-left: 5px solid white;
+    border-left: 5px solid white; /* adds a solid border that is faces left and is white*/
 
-    color: #fff;
+    color: #fff; /* sets text color white*/
 }
 
-.explanation::first-letter {
-    font-size: 2em;
+.explanation::first-letter { /* specifically selects the first letter in explanation*/
+    font-size: 2em; /* changes the size of the text to 2em*/
 }
 
 
-.participation {
-    text-align: right;
-    width: 90%;
+.participation { /* selects the participation class*/
+    text-align: right; /* aligns the text to the right*/
+    width: 90%; /* sets the width of the element to 90% */
 
-    background-color: rgba(167, 167, 89, 0.6);
+    background-color: rgba(167, 167, 89, 0.6); /* changes the background color*/
 
-    color: #fff;
+    color: #fff; /* sets text color white*/
 
-    padding: 10px;
-    margin: 0 auto;
+    padding: 10px; /* adds padding to the element*/
+    margin: 0 auto; /* centers the element */
 
-    border-top: 5px solid white;
-    border-right: 5px solid white;
-
-}
-
-.participation::first-letter {
-    font-size: 2em;
-}
-
-.benefits {
-    width: 90%;
-
-    padding: 10px;
-    margin: 0 auto;
-
-    text-align: center;
-
-    background-color: rgba(167, 167, 89, 0.6);
-
-    border-left: 5px solid white;
-    border-top: 5px solid white;
-
-    color: #fff;
-
-    margin-bottom: 40px;
-}
-
-.benefits::first-letter {
-    font-size: 2em;
-}
-
-.requirements {
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-    padding: 10px;
-    margin: 0 auto;
-
-    text-align: center;
-
-    background-image: url("images/rock3.jpg");
-    background-size: cover;
-    background-position: center center;
-
-    border: solid 5px white;
-
-    color: #fff;
-
-    font-family:Arial, Helvetica, sans-serif;
-
-    margin-bottom: 40px;
-}
-
-.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    justify-items: center;
-    align-items: center;
-
-    background-color: rgba(164, 212, 228, 0.9);
-    color: #fff;
-
-    padding: 20px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-
-    font-size: 25px;
-    cursor: pointer;
-
-    margin: 0 auto;
-    margin-bottom: 10px;
-
-    width: 5%;
+    border-top: 5px solid white; /* adds border to the top thats white */
+    border-right: 5px solid white; /* adds border to the right thats white */
 
 }
 
-.zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover {
-    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
-    background-color: rgba(167, 167, 89, 0.6);
+.participation::first-letter { /* specifically selects the first letter in participation*/
+    font-size: 2em; /* changes the size of the text to 2em*/
 }
 
-#zen-supporting{
-    width: 80%;
+.benefits { /* selects the benefits class */
+    width: 90%; /* sets the width of the element to 90% */
+
+    padding: 10px; /* adds padding to the element*/
+    margin: 0 auto; /* centers the element */
+
+    text-align: center; /* centers the text*/
+
+    background-color: rgba(167, 167, 89, 0.6); /* changes the background color*/
+
+    border-left: 5px solid white; /* adds a solid border to the left that is white*/
+    border-top: 5px solid white; /* adds a solid border to the top that is white*/
+
+    color: #fff; /* makes the text white */
+
+    margin-bottom: 40px; /* adds margin to the bottom of the element*/
 }
 
-.sidebar {
-
-    width: 15%;
-    float: right;
-    position: fixed;
-    right: 0;
-
-    top: 300px;
-
-    text-align: center;
-    background-color: rgb(164, 212, 228, 0.4);
-
-   padding: 20px;
-
-   color: #fff;
+.benefits::first-letter { /* specifically selects the first letter in benefits*/
+    font-size: 2em; /* sets font size to 2em*/
 }
 
-a {
-    text-decoration: none;
-    color: rgb(164, 212, 228, 0.8);
+.requirements { /* selects the requirements class */
+    display: grid; /* puts the element to grid*/
+    grid-template-columns: 50% 50%; /* sets the grid template to 2 columns*/
+
+    padding: 10px; /* adds padding to the element*/
+    margin: 0 auto; /* centers the element */
+
+    text-align: center; /* centers the text*/
+
+    background-image: url("images/rock3.jpg"); /* changes the background image */
+    background-size: cover; /* makes the image try to cover the page*/
+    background-position: center center; /* centers the image on both axis*/
+ 
+    border: solid 5px white; /* adds a solid border that is white*/
+
+    color: #fff; /* makes the text white */
+
+    font-family:Arial, Helvetica, sans-serif; /* changes the font family*/
+
+    margin-bottom: 40px; /* adds margin to the bottom of the element*/
+}  
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github { /* selects all the classes for the buttons to make them more uniform*/
+    display: grid; /* displays a grid layout*/
+    grid-template-rows: 20% 20% 20% 20% 20%; /* sets the grid template to 5 rows*/
+    justify-items: center; /* centers the content of the grid*/
+    align-items: center; /* aligns the content of the grid*/
+
+    background-color: rgba(164, 212, 228, 0.9); /* changes the background color*/
+    color: #fff; /* makes the text white */
+
+    padding: 20px; /* adds padding to the element*/
+    text-align: center; /* centers the text*/
+    border: none; /* sets no border*/
+    border-radius: 5px; /* adds rounded corners to the border*/
+
+    font-size: 25px; /* changes the size of the text to 25px*/
+    cursor: pointer; /* changes the cursor to a pointer*/
+
+    margin: 0 auto; /* centers the element */
+    margin-bottom: 10px; /* adds margin to the bottom of the element*/
+
+    width: 5%; /* sets the width of the element to 5% */
+
 }
 
-a:hover {
-    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
-    color: #fff;
+.zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover { /* selects all the buttons classes and their hover effects*/
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s; /* adds cubic bezier animation*/
+    background-color: rgba(167, 167, 89, 0.6); /* changes the background color*/
 }
 
-a:visited {
-    color: rgba(0, 162, 216, 0.8);
+#zen-supporting{ /* selects the supporting element*/
+    width: 80%; /* sets the width of the element to 80% */
 }
 
-ul {
-    list-style-type: square;
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
+.sidebar { /* selects the sidebar element*/
+
+    width: 15%; /* sets the width of the element to 15% */
+    float: right; /* floats the element to the right*/
+    position: fixed; /* fixes the position of the element to glue it to the side*/
+    right: 0; /* places the element to the right*/
+
+    top: 300px; /* places the element 300px from the top*/
+
+    text-align: center; /* centers the text*/
+    background-color: rgba(164, 212, 228, 0.4); /* changes the background color*/
+ 
+   padding: 20px; /* adds padding to the element*/
+
+   color: #fff; /* makes the text white */
+}
+
+a { /* selects all links*/
+    text-decoration: none; /* removes the underline from the link*/
+    color: rgb(164, 212, 228, 0.8); /* changes the color of the link*/
+}
+
+a:hover { /* selects all links and their hover effects*/
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s; /* adds cubic bezier animation*/
+    color: #fff; /* changes the color of the link*/
+}
+
+a:visited { /* visited links select*/
+    color: rgba(0, 162, 216, 0.8); /* changes the color of the link*/
+}
+a:active { /* active links select*/
+    color: rgba(0, 162, 216, 0.8); /* changes the color of the link*/
+}
+
+ul { /* selects all lists*/
+    list-style-type: square; /* sets the list style to square*/
+    list-style-position: inside; /* places the list inside the element*/
+    padding: 0; /* removes padding from the element*/
+    margin: 0; /* removes margin from the element*/
 }
