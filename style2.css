@@ -7,8 +7,13 @@
 
     text-align: right;
 
+    width: 99%;
+
     padding: 10px;
-    margin: 10px;
+    margin: 0 auto;
+
+    border-bottom: 40px solid #86A6A4;
+
 }
 
 .intro h1 {
@@ -30,17 +35,17 @@
 
     padding: 4px;
 
-    width: 6%;
+    width: 10%;
 
     margin-left: auto;
 
-    font-size: 17px;
+    font-size: 30px;
 
     border-radius: 6px;
 }
 
 .intro h2::first-letter, .intro h3::first-letter {
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(23, 146, 187, 0.7);
 }
 
@@ -52,6 +57,32 @@
     width: 20%;
     margin-left: auto;
 
-    border-radius: 4px;
+
 }
 
+.intro p::first-letter {
+    font-size: 25px;
+    color: rgba(23, 146, 187, 0.7);
+}
+
+#zen-supporting {
+    background-image: url("images/rock4water.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    border-top: 10px solid #86A6A4;
+}
+
+.explanation, .participation, .benefits, .requirements {
+    background-color: rgba(42, 55, 53, 0.8);
+    color: #C1C4BE;
+
+    padding: 10px;
+
+    width: 30%;
+}
+
+.explanation::first-letter, .participation::first-letter, .benefits::first-letter, .requirements::first-letter {
+    font-size: 30px;
+    color: rgba(23, 146, 187, 0.7);
+}
