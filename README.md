@@ -6,4 +6,4 @@
 
 --------> COMP001B Final Project
 
-Repository URL: https://github.com/ColbyDomingos/colbydomingos.github.io 
+Repository URL: https://colbydomingos.github.io 
