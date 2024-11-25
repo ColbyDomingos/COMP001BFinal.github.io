@@ -106,3 +106,12 @@ body {
 
    color: #C1C4BE; /* makes the text white */
 }
+
+ul {
+    list-style:lower-roman; /* sets the list style to lower-roman*/
+
+    padding: 0; /* removes padding from the element*/
+    margin: 0; /* removes margin from the element*/
+
+    list-style-position: inside;
+}
