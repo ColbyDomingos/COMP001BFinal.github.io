@@ -11,7 +11,7 @@ body {
 
     text-align: right;
 
-
+    font-family: Arial, Helvetica, sans-serif;
 
     padding: 10px;
     margin: 0 auto;
@@ -74,6 +74,8 @@ body {
     background-size: cover;
     background-position: center center;
 
+    font-family: Arial, Helvetica, sans-serif;
+
     border-top: 10px solid #86A6A4;
 }
 
@@ -87,14 +89,16 @@ body {
 }
 
 .explanation::first-letter, .participation::first-letter, .benefits::first-letter, .requirements::first-letter {
-    font-size: 30px;
-    color: rgba(23, 146, 187, 0.7);
+    font-size: 30px; /* changes the font size of the text */
+    color: rgba(23, 146, 187, 0.7); /* changes the color of the text */
 }
 
 .sidebar { /* selects the sidebar element*/
 
     width: 20%; /* sets the width of the element to 15% */
     position: fixed; /* fixes the position of the element to glue it to the side*/
+
+    font-family: Arial, Helvetica, sans-serif;
 
     top: 20%; /* places the element 300px from the top*/
     left: 40%;
@@ -113,5 +117,20 @@ ul {
     padding: 0; /* removes padding from the element*/
     margin: 0; /* removes margin from the element*/
 
-    list-style-position: inside;
+    list-style-position: inside; /* places the list inside the element*/
 }
+
+a { /* selects all links*/
+    text-decoration: none; /* removes the underline from the link*/
+    color: rgba(23, 146, 187, 0.7); /* changes the color of the link*/
+}
+
+a:hover { /* selects all links and their hover effects*/
+    transition:ease-in-out 0.5s; /* adds cubic bezier animation*/
+    color: #C1C4BE; /* changes the color of the link*/
+}
+
+a:visited { /* selects all visited links*/
+    color: rgba(255, 255, 255, 0.7); /* changes the color of the link*/
+}
+
