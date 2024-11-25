@@ -1,97 +1,97 @@
 body {
-    background-color: #86A6A4;
+    background-color: #86A6A4; /* changes the background color */
 }
 
-.intro {
-    background-image: url("images/rocks2water.jpg");
-    background-size: cover;
-    background-position: center center;
+.intro { /* selects the intro class */
+    background-image: url("images/rocks2water.jpg"); /* changes the background image */
+    background-size: cover; /* makes the image try to cover the page*/
+    background-position: center center; /* centers the image on both axis*/
     
-    color: #86A6A4;
+    color: #86A6A4; /* changes the color of the text */
 
-    text-align: right;
+    text-align: right; /* aligns the text to the right*/
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* changes the font family*/
 
-    padding: 10px;
-    margin: 0 auto;
+    padding: 10px; /* adds padding to the element*/
+    margin: 0 auto; /* centers the element */
 
-    border-bottom: 40px solid #86A6A4;
+    border-bottom: 40px solid #86A6A4; /* adds a solid border to the bottom that is white*/
 
 }
 
-.intro h1 {
-    background-color: rgba(42, 55, 53, 0.8);
-    color: rgba(23, 146, 187, 0.7);
+.intro h1 { /* specifically selects the h1 element in the intro class*/
+    background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
+    color: rgba(23, 146, 187, 0.7); /* changes the color of the text */
 
-    padding: 5px;
+    padding: 5px; /* adds padding to the element*/
 
-    width: 21%;
-    font-size: 50px;
+    width: 21%; /* sets the width of the element to 21% */
+    font-size: 50px; /* changes the font size of the text */
 
-    margin-left: auto;
+    margin-left: auto; /* centers the element */
 
-    border-radius: 6px;
+    border-radius: 6px; /* adds rounded corners to the border*/
 }
 
-.intro h2, .intro h3 {
-    background-color: rgba(42, 55, 53, 0.8);
+.intro h2, .intro h3 { /* specifically selects the h2 and h3 elements in the intro class*/
+    background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
 
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* adds letter spacing to the text*/
 
-    padding: 4px;
+    padding: 4px; /* adds padding to the element*/
 
-    width: 18%;
+    width: 18%; /* sets the width of the element to 18% */
 
-    margin-left: auto;
+    margin-left: auto; /* centers the element */
 
-    font-size: 30px;
+    font-size: 30px; /* changes the font size of the text */
 
-    border-radius: 6px;
+    border-radius: 6px; /* adds rounded corners to the border*/
 }
 
-.intro h2::first-letter, .intro h3::first-letter {
-    font-size: 35px;
-    color: rgba(23, 146, 187, 0.7);
+.intro h2::first-letter, .intro h3::first-letter { /* specifically selects the first letter in the h2 and h3 elements in the intro class*/
+    font-size: 35px; /* changes the font size of the text */
+    color: rgba(23, 146, 187, 0.7); /* changes the color of the text */
+} 
+
+.intro p { /* specifically selects the p element in the intro class*/
+    background-color: rgba(42, 55, 53, 0.7); /* changes the background color*/
+
+    font-size: 18px; /* changes the font size of the text */
+    letter-spacing: 2px; /* adds letter spacing to the text*/
+
+
+    width: 20%; /* sets the width of the element to 20% */
+    margin-left: auto; /* centers the element */
+} 
+
+.intro p::first-letter { /* specifically selects the first letter in the p element in the intro class*/
+    font-size: 25px; /* changes the font size of the text */
+    color: rgba(23, 146, 187, 0.7); /* changes the color of the text */
 }
 
-.intro p {
-    background-color: rgba(42, 55, 53, 0.7);
+#zen-supporting { /* selects the supporting element*/
+    background-image: url("images/rock4water.jpg"); /* changes the background image */
+    background-size: cover; /* makes the image try to cover the page*/
+    background-position: center center; /* centers the image on both axis*/
 
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif; /* changes the font family*/
+    letter-spacing: 2px; /* adds letter spacing to the text*/
 
-
-    width: 20%;
-    margin-left: auto;
+    border-top: 10px solid #86A6A4; /* adds a solid border to the top that is white*/
 }
 
-.intro p::first-letter {
-    font-size: 25px;
-    color: rgba(23, 146, 187, 0.7);
+.explanation, .participation, .benefits, .requirements { /* selects all the explanation, participation, benefits, and requirements classes */
+    background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
+    color: #C1C4BE; /* changes the color of the text */
+
+    padding: 10px; /* adds padding to the element*/
+
+    width: 30%; /* sets the width of the element to 30% */
 }
 
-#zen-supporting {
-    background-image: url("images/rock4water.jpg");
-    background-size: cover;
-    background-position: center center;
-
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
-
-    border-top: 10px solid #86A6A4;
-}
-
-.explanation, .participation, .benefits, .requirements {
-    background-color: rgba(42, 55, 53, 0.8);
-    color: #C1C4BE;
-
-    padding: 10px;
-
-    width: 30%;
-}
-
-.explanation::first-letter, .participation::first-letter, .benefits::first-letter, .requirements::first-letter {
+.explanation::first-letter, .participation::first-letter, .benefits::first-letter, .requirements::first-letter { /* specifically selects the first letter in the explanation, participation, benefits, and requirements classes */
     font-size: 30px; /* changes the font size of the text */
     color: rgba(23, 146, 187, 0.7); /* changes the color of the text */
 }
@@ -104,7 +104,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     top: 20%; /* places the element 300px from the top*/
-    left: 40%;
+    left: 40%; /* places the element 300px from the left*/
 
     text-align: center; /* centers the text*/
     background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
@@ -114,7 +114,7 @@ body {
    color: #C1C4BE; /* makes the text white */
 }
 
-ul {
+ul { /* selects all lists*/
     list-style:lower-roman; /* sets the list style to lower-roman*/
 
     padding: 0; /* removes padding from the element*/
@@ -164,6 +164,6 @@ a:visited { /* selects all visited links*/
 }
 
 .zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover { /* selects all the buttons classes and their hover effects*/
-    transition:ease-in-out 0.5s;
+    transition:ease-in-out 0.5s; /* adds cubic bezier animation*/
     background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
 }
