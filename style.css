@@ -64,6 +64,8 @@
 
     text-align: center; /* centers the text*/
     color: #fff; /* makes the text white */
+    line-height: 145%; /* sets the line height to 145%*/
+
 
     font-family: Arial, Helvetica, sans-serif; /* changes the font family*/
 
@@ -80,6 +82,7 @@
 .preamble { /* selects the preamble class */
 
     text-align: center; /* centers the text*/
+    line-height: 145%; /* sets the line height to 125%*/
 
     padding: 10px; /* adds padding to the element*/
     margin: 0 auto; /* centers the element */
@@ -94,10 +97,6 @@
     margin-bottom: 40px; /* adds margin to the bottom of the element*/
 }
 
-.preamble::first-letter { /* specifically selects the first letter in preamble*/
-    font-size: 2em; /* changes the size of the text to 2em*/
-} 
-
 .explanation { /* selects the explanation class */
     width: 90%; /* sets the width of the element to 90% */
 
@@ -109,11 +108,6 @@
 
     color: #fff; /* sets text color white*/
 }
-
-.explanation::first-letter { /* specifically selects the first letter in explanation*/
-    font-size: 2em; /* changes the size of the text to 2em*/
-}
-
 
 .participation { /* selects the participation class*/
     text-align: right; /* aligns the text to the right*/
@@ -129,10 +123,6 @@
     border-top: 5px solid white; /* adds border to the top thats white */
     border-right: 5px solid white; /* adds border to the right thats white */
 
-}
-
-.participation::first-letter { /* specifically selects the first letter in participation*/
-    font-size: 2em; /* changes the size of the text to 2em*/
 }
 
 .benefits { /* selects the benefits class */
@@ -153,7 +143,7 @@
     margin-bottom: 40px; /* adds margin to the bottom of the element*/
 }
 
-.benefits::first-letter { /* specifically selects the first letter in benefits*/
+.benefits::first-letter, .preamble::first-letter, .explanation::first-letter, .participation::first-letter { /* specifically selects the first letter in benefits*/
     font-size: 2em; /* sets font size to 2em*/
 }
 
@@ -222,6 +212,7 @@
     top: 300px; /* places the element 300px from the top*/
 
     text-align: center; /* centers the text*/
+    line-height: 145%; /* sets the line height to 145%*/
     background-color: rgba(164, 212, 228, 0.4); /* changes the background color*/
  
    padding: 20px; /* adds padding to the element*/
