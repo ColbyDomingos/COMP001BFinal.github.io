@@ -134,3 +134,30 @@ a:visited { /* selects all visited links*/
     color: rgba(255, 255, 255, 0.7); /* changes the color of the link*/
 }
 
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github { /* selects all the classes for the buttons to make them more uniform*/
+    display: grid; /* displays a grid layout*/
+    grid-template-rows: 20% 20% 20% 20% 20%; /* sets the grid template to 5 rows*/
+    justify-items: center; /* centers the content of the grid*/
+    align-items: center; /* aligns the content of the grid*/
+
+    background-color: rgba(164, 212, 228, 0.6); /* changes the background color*/
+    color: #fff; /* makes the text white */
+
+    width: 5%; /* sets the width of the element to 5% */
+
+    float: right; /* floats the element to the right*/
+    right: 0;
+
+    margin: 5px; /* adds margin to the element*/
+    padding: 10px; /* adds padding to the element*/
+
+    font-size: 25px; /* changes the size of the text to 25px*/
+    cursor: pointer; /* changes the cursor to a pointer*/
+
+    top: 300px; /* places the element 300px from the top*/
+}
+
+.zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover { /* selects all the buttons classes and their hover effects*/
+    transition:ease-in-out 0.5s;
+    background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
+}
