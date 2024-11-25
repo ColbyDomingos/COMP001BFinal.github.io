@@ -150,6 +150,7 @@
 
 .benefits::first-letter, .preamble::first-letter, .explanation::first-letter, .participation::first-letter { /* specifically selects the first letter in benefits*/
     font-size: 2em; /* sets font size to 2em*/
+    
 }
 
 .requirements { /* selects the requirements class */
@@ -160,6 +161,7 @@
     margin: 0 auto; /* centers the element */
 
     text-align: center; /* centers the text*/
+    text-indent: 20px; /* indents the text by 20px making the text easy to read*/
     line-height: 145%; /* sets the line height to 145%*/
 
 
