@@ -29,7 +29,7 @@ body {
     width: 21%; /* sets the width of the element to 21% */
     font-size: 50px; /* changes the font size of the text */
 
-    margin-left: auto; /* centers the element */
+    margin-left: auto; /* brings the element all the way right */
 
     border-radius: 6px; /* adds rounded corners to the border*/
 }
@@ -40,9 +40,7 @@ body {
     letter-spacing: 2px; /* adds letter spacing to the text*/
 
     padding: 4px; /* adds padding to the element*/
-
     width: 18%; /* sets the width of the element to 18% */
-
     margin-left: auto; /* centers the element */
 
     font-size: 30px; /* changes the font size of the text */
@@ -60,7 +58,7 @@ body {
 
     font-size: 18px; /* changes the font size of the text */
     letter-spacing: 2px; /* adds letter spacing to the text*/
-
+    line-height: 125%; /* sets the line height to 145%*/
 
     width: 20%; /* sets the width of the element to 20% */
     margin-left: auto; /* centers the element */
@@ -78,6 +76,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif; /* changes the font family*/
     letter-spacing: 2px; /* adds letter spacing to the text*/
+    line-height: 145%; /* sets the line height to 145%*/
 
     border-top: 10px solid #86A6A4; /* adds a solid border to the top that is white*/
 }
@@ -107,6 +106,7 @@ body {
     left: 40%; /* places the element 300px from the left*/
 
     text-align: center; /* centers the text*/
+    line-height: 125%; /* sets the line height to 125%*/
     background-color: rgba(42, 55, 53, 0.8); /* changes the background color*/
  
    padding: 20px; /* adds padding to the element*/
