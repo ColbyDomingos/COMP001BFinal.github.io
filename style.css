@@ -99,6 +99,8 @@
 
 .explanation { /* selects the explanation class */
     width: 90%; /* sets the width of the element to 90% */
+    line-height: 145%; /* sets the line height to 145%*/
+
 
     padding: 10px; /* adds padding to the element*/
     margin: 0 auto; /* centers the element */
@@ -112,6 +114,8 @@
 .participation { /* selects the participation class*/
     text-align: right; /* aligns the text to the right*/
     width: 90%; /* sets the width of the element to 90% */
+    line-height: 145%; /* sets the line height to 145%*/
+
 
     background-color: rgba(167, 167, 89, 0.6); /* changes the background color*/
 
@@ -127,6 +131,7 @@
 
 .benefits { /* selects the benefits class */
     width: 90%; /* sets the width of the element to 90% */
+    line-height: 145%; /* sets the line height to 145%*/
 
     padding: 10px; /* adds padding to the element*/
     margin: 0 auto; /* centers the element */
@@ -155,6 +160,8 @@
     margin: 0 auto; /* centers the element */
 
     text-align: center; /* centers the text*/
+    line-height: 145%; /* sets the line height to 145%*/
+
 
     background-image: url("images/rock3.jpg"); /* changes the background image */
     background-size: cover; /* makes the image try to cover the page*/
